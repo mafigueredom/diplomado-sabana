@@ -1,0 +1,12 @@
+# Entorno de la sesión 1. Crear desde la raíz: conda env create -f environment.yaml
+name: DiplomadoAgentica
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  # Las versiones de los paquetes Python se mantienen en un único archivo.
+  - pip:
+      - -r requirements.txt
+
+  - langchain-core

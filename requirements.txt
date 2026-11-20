@@ -1,0 +1,8 @@
+# Sesión 1. Para Python 3.12 en un entorno Conda aislado.
+# Versiones coherentes con create_agent y langchain-openrouter.
+langchain==1.5.0
+langchain-openrouter==0.2.9
+openrouter==0.11.46
+pydantic==2.12.3
+python-dotenv==1.1.1
+pytest==8.4.1
