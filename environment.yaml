@@ -8,3 +8,5 @@ dependencies:
   # Las versiones de los paquetes Python se mantienen en un único archivo.
   - pip:
       - -r requirements.txt
+
+  - langchain-core
